@@ -9,7 +9,7 @@ public class Main {
     
     public static void main(String[] args) throws IOException { 
 
-        var file = new FileReader("file.json");
+        var file = new FileReader("homework_3/file.json");
 
         char[] buf = new char[256];
             
@@ -34,7 +34,7 @@ public class Main {
         }    
         
         for (Pig pig : pigList) {
-            
+
             System.out.println(pig);
             
         }
